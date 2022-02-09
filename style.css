@@ -1,5 +1,28 @@
 /* placeholder */
+#last {
+  color: cyan;
+}
+
+body {
+  background: #094bb5;
+  color: white;
+}
+
+p {
+  color: green;
+}
+
+
 
 img {
   width: 100%;
+  max-width: 500px;
 }
+
+.💗 {
+  color: pink;
+}
+a {
+  color: yellow;
+}
+
