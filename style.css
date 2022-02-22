@@ -1,17 +1,18 @@
 /* placeholder */
-#last {
-  color: cyan;
-}
 
 body {
-  background: #094bb5;
+  background: #621eb9;
   color: white;
 }
 
 p {
-  color: green;
+  color: #d8ef2a;
 }
 
+h1 {
+  font-size: 120px;
+    color: rgb(216 239 42 / 80%);
+}
 
 
 img {
