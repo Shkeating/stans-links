@@ -1,20 +1,16 @@
-/* placeholder */
+/* variables */
+:root {
+  --yellowgreen: #d8ef2a;
+  --display-font-stack: "Lemon", cursive;
+}
 
+
+/* global */
 body {
   background: #621eb9;
   color: white;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 20px;
-}
-
-p {
-  color: #d8ef2a;
-}
-
-h1 {
-  font-size: 120px;
-  color: rgb(216 239 42 / 80%);
-  font-family: "Lemon", cursive;
 }
 
 img {
@@ -22,9 +18,18 @@ img {
   max-width: 500px;
 }
 
-.💗 {
-  color: pink;
+/* typography */
+
+p {
+  color: var(--yellowgreen);
 }
+
+h1 {
+  font-size: 120px;
+  color: var(--yellowgreen);
+  font-family: var(--display-font-stack);
+}
+
 a {
   color: yellow;
 }
@@ -32,3 +37,11 @@ a {
 a:focus {
   outline: 6px #1cffec dashed;
 }
+
+
+/* custom */
+
+.💗 {
+  color: pink;
+}
+
