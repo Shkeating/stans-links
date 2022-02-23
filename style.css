@@ -27,3 +27,7 @@ a {
   color: yellow;
 }
 
+a:focus {
+  outline: 6px #1cffec dashed;
+}
+
