@@ -3,6 +3,8 @@
 body {
   background: #621eb9;
   color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
 }
 
 p {
@@ -11,9 +13,9 @@ p {
 
 h1 {
   font-size: 120px;
-    color: rgb(216 239 42 / 80%);
+  color: rgb(216 239 42 / 80%);
+  font-family: "Lemon", cursive;
 }
-
 
 img {
   width: 100%;
@@ -30,4 +32,3 @@ a {
 a:focus {
   outline: 6px #1cffec dashed;
 }
-
