@@ -1,6 +1,7 @@
 /* variables */
 :root {
   --yellowgreen: #d8ef2a;
+  --turquoise: #1cffec;
   --display-font-stack: "Lemon", cursive;
 }
 
@@ -28,27 +29,33 @@ h1 {
   font-size: 120px;
   color: var(--yellowgreen);
   font-family: var(--display-font-stack);
+  text-align: center;
 }
-
-a {
-  color: yellow;
-}
-
-a:focus {
-  outline: 6px #1cffec dashed;
-}
-
 
 /* buttons */
 
 nav {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-/* custom */
-
-.💗 {
-  color: pink;
+a {
+  color: var(--yellowgreen);
+  text-decoration: none;
+  font-size: 26px;
+  background: #0b0a06;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
 }
 
+a:focus {
+  outline: 6px var(--turquoise) dashed;
+}
+
+a:hover, a:focus {
+  background: var(--turquoise);
+  color: black;
+}
