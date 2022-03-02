@@ -39,6 +39,13 @@ a:focus {
 }
 
 
+/* buttons */
+
+nav {
+  display: flex;
+}
+
+
 /* custom */
 
 .💗 {
